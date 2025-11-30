@@ -38,9 +38,11 @@ python main.py
 
 Follow the on-screen prompts to enter the city you grew up in and your pet's name. The tool will combine them with a random genre and adjective to create your new band name!
 
+You can generate multiple names in a single session. Just type `y` when asked if you want to generate another.
+
 ## 🐳 Docker Support
 
-You can also run this application in a Docker container.
+This project includes a production-ready `Dockerfile` with security best practices (non-root user, read-only code).
 
 1. **Build the image**:
    ```bash
@@ -52,3 +54,5 @@ You can also run this application in a Docker container.
    ```bash
    docker run -it band-generator
    ```
+
+   The container is configured as an executable. It will automatically run the application and exit when you choose to stop generating names.
