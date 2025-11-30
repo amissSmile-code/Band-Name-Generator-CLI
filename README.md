@@ -17,7 +17,9 @@ A whimsical command-line interface (CLI) tool that generates unique and cool ban
 
 1. **Navigate to the project directory**:
    ```bash
-   cd python/BandGenerator
+   cd Band-Name-Generator-CLI
+
+
    ```
 
 2. **Install dependencies**:
