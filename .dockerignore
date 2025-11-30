@@ -1,0 +1,40 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+
+# VS Code settings
+.vscode/
+
+# Git
+.git/
+.gitignore
+
+# Logs and temp files
+*.log
+*.tmp
+*.cache
+
+# OneDrive sync artifacts
+*.lnk
+*.tmp
+*.~*
+
+# Build output
+dist/
+build/
+*.egg-info/
